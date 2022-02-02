@@ -3,7 +3,7 @@ import ExperienceForm from "./ExperienceForm";
 import { RiCloseCircleLine } from 'react-icons/ri';
 import { TiEdit } from 'react-icons/ti';
 
-function Experience({experience, removeExperience, updateExperience}) {
+function Experience({Experience, removeExperience, updateExperience}) {
     const [edit, setEdit] = useState ({
         id: null,
         value: ""
@@ -21,17 +21,17 @@ function Experience({experience, removeExperience, updateExperience}) {
     }
 
 
-    return experience.map((toDo, index) => (
+    return Experience.map((Experience, index) => (
         <div className='experience-row complete' key={index}>
 
-            <div key={toDo.id}>
-                {toDo.text}
+            <div key={Experience.id}>
+                {Experience.text}
             </div>
 
             <div className='icons'>
-                <RiCloseCircleLine onClick={() => removeExperience(experience.id)}
+                <RiCloseCircleLine onClick={() => removeExperience(Experience.id)}
                                    className='delete-icon'/>
-                <TiEdit onClick={() => setEdit({ id: experience.id, value: experience.text })}/>
+                <TiEdit onClick={() => setEdit({ id: Experience.id, value: Experience.text })}/>
             </div>
         </div>
     ));
