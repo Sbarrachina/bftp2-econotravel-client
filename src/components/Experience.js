@@ -28,6 +28,7 @@ function Experience({Experience, removeExperience, updateExperience}) {
                 {Experience.text}
             </div>
 
+
             <div className='icons'>
                 <RiCloseCircleLine onClick={() => removeExperience(Experience.id)}
                                    className='delete-icon'/>

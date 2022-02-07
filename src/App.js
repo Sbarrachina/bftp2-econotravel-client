@@ -1,48 +1,33 @@
 import './App.css';
-import {useEffect, useState} from "react";
-
+import Navbar from './components/Header';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './components/pages';
+import About from './components/pages/about';
+import Experiences from './components/pages/experiences';
+import SignUp from './components/pages/signup.js';
 
 
 function App() {
 
-    const [experiences, setExperiences] = useState([]);
-    const [newExperience, setNewExperience] = useState("");
-    const [requiresUpdate, setRequiresUpdate] = useState(true);
-
-
-    useEffect(() => {
-        if (requiresUpdate) {
-            fetch("http://localhost:8080/api/experiences")
-                .then(r => r.json())
-                .then(setExperiences)
-                .then(_ => setRequiresUpdate(false));
-        }
-    }, [requiresUpdate])
-
-    const addExperience = (experienceName) => {
-        fetch("http://localhost:8080/api/experiences",
-            {
-                method: 'POST',
-                headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({name: experienceName})
-            }
-        ).then(_ => setRequiresUpdate(true))
-
-    }
-
-
     return (
         <div className="App">
-            <div className="newExperienceForm">
-                <input onChange={e => setNewExperience(e.target.value)} type="text"/>
-                <button onClick={() => addExperience(newExperience)}>Add experience</button>
-            </div>
 
-            <ul>
-                {experiences.map(experience => <li>{experience.name}</li>)}
-            </ul>
+            <Router>
+                <Navbar />
+                <Switch>
+                    <Route path='/' exact component={Home} />
+                    <Route path='/about' component={About} />
+                    <Route path='/experiences' component={Experiences} />
+                    <Route path='/sign-up' component={SignUp} />
+                </Switch>
+            </Router>
+
+
         </div>
+
+
     );
+
 }
 
 export default App;
