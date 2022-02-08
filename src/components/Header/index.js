@@ -21,6 +21,9 @@ const Navbar = () => {
                     <NavLink to='/experiences' activeStyle>
                         Experiences
                     </NavLink>
+                    <NavLink to='/new' activeStyle>
+                        New
+                    </NavLink>
 
                     <NavLink to='/sign-up' activeStyle>
                         Sign Up

@@ -2,7 +2,7 @@ import React from 'react';
 import {useEffect, useState} from "react";
 
 
-const Experiences = () => {
+const Catalogo = () => {
 
     const [experiences, setExperiences] = useState([]);
     const [newExperience, setNewExperience] = useState("");
@@ -51,4 +51,4 @@ const Experiences = () => {
 };
 
 
-export default Experiences;
+export default Catalogo;

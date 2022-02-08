@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Experience from "./Experience";
-import ExperienceForm from "./ExperienceForm";
+import NewExperienceForm from "./NewExperienceForm";
 
 function ExperienceList() {
     const [Experiences, setExperiences] =  useState([])
@@ -29,7 +29,7 @@ function ExperienceList() {
     return (
         <div>
             <h1>What's the plan for today</h1>
-            <ExperienceForm onSubmit={addExperience}/>
+            <NewExperienceForm onSubmit={addExperience}/>
             <Experience Experiences={Experiences} removeExperience={removeExperience} updateToDo={updateExperience}/>
         </div>
     );

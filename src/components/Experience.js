@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ExperienceForm from "./ExperienceForm";
+import NewExperienceForm from "./NewExperienceForm";
 import { RiCloseCircleLine } from 'react-icons/ri';
 import { TiEdit } from 'react-icons/ti';
 
@@ -17,7 +17,7 @@ function Experience({Experience, removeExperience, updateExperience}) {
         })
     }
     if (edit.id) {
-        return <ExperienceForm edit={edit} onSubmit={submitUpdate} />;
+        return <NewExperienceForm edit={edit} onSubmit={submitUpdate} />;
     }
 
 
