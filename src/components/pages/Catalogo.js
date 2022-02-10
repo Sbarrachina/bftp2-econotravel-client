@@ -28,23 +28,18 @@ const Catalogo = () => {
 
     }
     return (
-        <div
-            style={{
-                display: 'flex',
-                justifyContent: 'Right',
-                alignItems: 'Right',
-                height: '100vh'
-            }}
-        >
-            <h1>Welcome to Econotravel Experiences</h1>
-            <div className="newExperienceForm">
-                <input onChange={e => setNewExperience(e.target.value)} type="text"/>
-                <button onClick={() => addExperience(newExperience)}>Add experience</button>
-            </div>
-
-            <ul>
-                {experiences.map(experience => <li>{experience.name}</li>)}
-            </ul>
+        <div>
+           <div className="catalog-frame">
+                <div className="catalog-gallery">
+                    <p>Las mejores actividades que hacer</p>
+                    <div className="experience-list">
+                        {experiences.map(e => <div className="experience">
+                            <img className="experience-image" src={e.image} alt="experience - image"/>
+                            <p>{e.name}</p>
+                        </div> )}
+                    </div>
+                </div>
+           </div>
         </div>
 
     );

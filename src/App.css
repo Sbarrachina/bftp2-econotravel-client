@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.catalog-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalog-gallery {
+  width: 90%;
+  border: 1px dashed blue;
+  margin:auto;
+}
+
+.experience-list {
+  display: flex;
+}
+
+.experience-image {
+  height: 150px;
+  width: 150px;
+  object-fit: fill;
+}
