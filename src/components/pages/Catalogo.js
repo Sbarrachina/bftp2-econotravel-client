@@ -1,16 +1,10 @@
 import React from 'react';
 import {useEffect, useState} from "react";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 
-<<<<<<< HEAD
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
-=======
->>>>>>> 20dcd2602089e77328f4b448e8bab2556a2013cd
 const Catalogo = () => {
 
     const [experiences, setExperiences] = useState([]);
@@ -37,73 +31,45 @@ const Catalogo = () => {
 
     }
     return (
-
         <div>
-
-           <div className="catalog-frame">
+            <div className="catalog-frame">
                 <div className="catalog-gallery">
                     <p>Las mejores actividades que hacer</p>
                     <div className="experience-list">
-<<<<<<< HEAD
                         <Carousel>
                             <div>
                                 <img src="assets/bici.png" />
-                                <p className="legend">Paseo en bicicleta por el Montseny</p>
+                                <p className="legend">Legend 1</p>
                             </div>
                             <div>
                                 <img src="assets/barco.png" />
-                                <p className="legend">Descubre las costa en barco de vela</p>
+                                <p className="legend">Legend 2</p>
                             </div>
                             <div>
                                 <img src="assets/bcnmodernista.png" />
-                                <p className="legend">Descubre la Barcelona Modernista de noche</p>
+                                <p className="legend">Legend 3</p>
                             </div>
 
                             <div>
                                 <img src="assets/huerta.png" />
-                                <p className="legend">Del huerto a la mesa</p>
+                                <p className="legend">Legend 3</p>
                             </div>
                             <div>
                                 <img src="assets/montserrat.png" />
-                                <p className="legend">Arte en la montaña sagrada</p>
+                                <p className="legend">Legend 3</p>
                             </div>
                         </Carousel>
 
-=======
-
-                        {experiences.map((e,index) => <div className="experience">
-                            <img className="experience-image" key={index[0]} src={e.image} alt="experience - image"/>
-
-                        {experiences.map(e => <div className="experience">
-                            <img className="experience-image"  src={e.image} alt="experience - image"/>
 
 
-                            <p>{e.name}</p>
-                        </div> )}
->>>>>>> 20dcd2602089e77328f4b448e8bab2556a2013cd
                     </div>
                 </div>
-           </div>
-
-
-            {/* <Carousel autoPlay>
-        <div>
-            {experiences.map((e,index) => <div className="experience">
-                <img className="experience-image" key={index} src={e.image} alt="experience - image"/>
-                <p>{e.name}</p>
-            </div> )}
-        </div>
-        <div>
-            {experiences.map((e,index) => <div className="experience">
-                <img className="experience-image" key={index} src={e.image} alt="experience - image"/>
-                <p>{e.name}</p>
-            </div> )}
-        </div>
-
-    </Carousel> */}
             </div>
-);
-    };
+        </div>
+
+    );
+};
 
 
 export default Catalogo;
+
