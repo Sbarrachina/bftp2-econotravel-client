@@ -34,29 +34,34 @@ const Catalogo = () => {
         <div>
             <div className="catalog-frame">
                 <div className="catalog-gallery">
-                    <p>Las mejores actividades que hacer</p>
+                    <h1>Las mejores actividades que hacer</h1>
                     <div className="experience-list">
                         <Carousel>
                             <div>
+
                                 <img src="assets/bici.png" />
-                                <p className="legend">Legend 1</p>
+                                <p className="legend"><a href="#" target="_blank">Paseo en bicicleta por el Montseny click here</a></p>
+
+
+
                             </div>
                             <div>
                                 <img src="assets/barco.png" />
-                                <p className="legend">Legend 2</p>
+                                <p className="legend">Descubre la costa en barco de vela</p>
                             </div>
                             <div>
                                 <img src="assets/bcnmodernista.png" />
-                                <p className="legend">Legend 3</p>
+                                <p className="legend">Descubre la Barcelona Modernista de noche</p>
                             </div>
 
                             <div>
                                 <img src="assets/huerta.png" />
-                                <p className="legend">Legend 3</p>
+                                <p className="legend">Del huerto a la mesa</p>
                             </div>
                             <div>
                                 <img src="assets/montserrat.png" />
-                                <p className="legend">Legend 3</p>
+                                <p className="legend">Arte en la montaña sagrada</p>
+                                <button></button>
                             </div>
                         </Carousel>
 
