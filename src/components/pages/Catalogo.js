@@ -3,7 +3,7 @@ import {useEffect, useState} from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Catalogo = () => {
 
@@ -38,8 +38,14 @@ const Catalogo = () => {
                 <div className="catalog-gallery">
                     <p>Las mejores actividades que hacer</p>
                     <div className="experience-list">
+
                         {experiences.map((e,index) => <div className="experience">
                             <img className="experience-image" key={index[0]} src={e.image} alt="experience - image"/>
+
+                        {experiences.map(e => <div className="experience">
+                            <img className="experience-image"  src={e.image} alt="experience - image"/>
+
+
                             <p>{e.name}</p>
                         </div> )}
                     </div>

@@ -6,7 +6,7 @@ import About from './components/pages/About';
 import NewExperienceForm from './components/NewExperienceForm';
 import Catalogo from "./components/pages/Catalogo";
 import Signup from './components/pages/Signup.js';
-
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
 
