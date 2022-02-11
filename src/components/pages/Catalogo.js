@@ -1,10 +1,16 @@
 import React from 'react';
 import {useEffect, useState} from "react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
+<<<<<<< HEAD
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
+=======
+>>>>>>> 20dcd2602089e77328f4b448e8bab2556a2013cd
 const Catalogo = () => {
 
     const [experiences, setExperiences] = useState([]);
@@ -31,11 +37,14 @@ const Catalogo = () => {
 
     }
     return (
+
         <div>
+
            <div className="catalog-frame">
                 <div className="catalog-gallery">
                     <p>Las mejores actividades que hacer</p>
                     <div className="experience-list">
+<<<<<<< HEAD
                         <Carousel>
                             <div>
                                 <img src="assets/bici.png" />
@@ -60,13 +69,41 @@ const Catalogo = () => {
                             </div>
                         </Carousel>
 
+=======
+
+                        {experiences.map((e,index) => <div className="experience">
+                            <img className="experience-image" key={index[0]} src={e.image} alt="experience - image"/>
+
+                        {experiences.map(e => <div className="experience">
+                            <img className="experience-image"  src={e.image} alt="experience - image"/>
+
+
+                            <p>{e.name}</p>
+                        </div> )}
+>>>>>>> 20dcd2602089e77328f4b448e8bab2556a2013cd
                     </div>
                 </div>
            </div>
+
+
+            {/* <Carousel autoPlay>
+        <div>
+            {experiences.map((e,index) => <div className="experience">
+                <img className="experience-image" key={index} src={e.image} alt="experience - image"/>
+                <p>{e.name}</p>
+            </div> )}
+        </div>
+        <div>
+            {experiences.map((e,index) => <div className="experience">
+                <img className="experience-image" key={index} src={e.image} alt="experience - image"/>
+                <p>{e.name}</p>
+            </div> )}
         </div>
 
-    );
-};
+    </Carousel> */}
+            </div>
+);
+    };
 
 
 export default Catalogo;
