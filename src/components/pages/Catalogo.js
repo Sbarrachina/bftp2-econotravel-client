@@ -1,7 +1,6 @@
 import React from 'react';
 import {useEffect, useState} from "react";
-
-
+import "bootstrap/dist/css/bootstrap.min.css";
 const Catalogo = () => {
 
     const [experiences, setExperiences] = useState([]);
@@ -34,7 +33,8 @@ const Catalogo = () => {
                     <p>Las mejores actividades que hacer</p>
                     <div className="experience-list">
                         {experiences.map(e => <div className="experience">
-                            <img className="experience-image" src={e.image} alt="experience - image"/>
+                            <img className="experience-image"  src={e.image} alt="experience - image"/>
+
                             <p>{e.name}</p>
                         </div> )}
                     </div>
