@@ -1,5 +1,8 @@
 import React from 'react';
 import {useEffect, useState} from "react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 
 
 const Catalogo = () => {
@@ -28,22 +31,40 @@ const Catalogo = () => {
 
     }
     return (
+
         <div>
+
            <div className="catalog-frame">
                 <div className="catalog-gallery">
                     <p>Las mejores actividades que hacer</p>
                     <div className="experience-list">
-                        {experiences.map(e => <div className="experience">
-                            <img className="experience-image" src={e.image} alt="experience - image"/>
+                        {experiences.map((e,index) => <div className="experience">
+                            <img className="experience-image" key={index[0]} src={e.image} alt="experience - image"/>
                             <p>{e.name}</p>
                         </div> )}
                     </div>
                 </div>
            </div>
+
+
+            {/* <Carousel autoPlay>
+        <div>
+            {experiences.map((e,index) => <div className="experience">
+                <img className="experience-image" key={index} src={e.image} alt="experience - image"/>
+                <p>{e.name}</p>
+            </div> )}
+        </div>
+        <div>
+            {experiences.map((e,index) => <div className="experience">
+                <img className="experience-image" key={index} src={e.image} alt="experience - image"/>
+                <p>{e.name}</p>
+            </div> )}
         </div>
 
-    );
-};
+    </Carousel> */}
+            </div>
+);
+    };
 
 
 export default Catalogo;
