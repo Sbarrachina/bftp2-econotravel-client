@@ -42,20 +42,16 @@ const Catalogo = () => {
                     <div className="experience-list">
                         <Carousel>
 
-<<<<<<< HEAD
-                            <div>
-=======
 
-                                <img src="assets/bici.png" />
-                                <p className="legend"><a href="https://www.clikisalud.net/5-beneficios-pasear-bicicleta/" target="_blank">Paseo en bicicleta por el Montseny click here</a></p>
+                            <img src="assets/bici.png" />
+                            <p className="legend"><a href="https://www.clikisalud.net/5-beneficios-pasear-bicicleta/" target="_blank">Paseo en bicicleta por el Montseny click here</a></p>
 
                             <div>
 
->>>>>>> 004f2380615a71ec45aeec0e4b08ff6d2d1f9faa
 
                                 <img src="assets/bici.png"/>
 
-                                    <p className="legend"> Paseo en bicicleta por el Montseny <a href="#" target="_blank"> click here</a> </p>
+                                <p className="legend"> Paseo en bicicleta por el Montseny <a href="#" target="_blank"> click here</a> </p>
 
                             </div>
 
@@ -85,9 +81,8 @@ const Catalogo = () => {
         </div>
 
 
-);
+    );
 };
 
 
 export default Catalogo;
-
