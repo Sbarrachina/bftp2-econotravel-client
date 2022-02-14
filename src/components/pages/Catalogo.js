@@ -42,12 +42,7 @@ const Catalogo = () => {
                     <div className="experience-list">
                         <Carousel>
 
-<<<<<<< HEAD
-                                <img src="assets/bici.png" />
-                                <p className="legend"><a href="https://www.clikisalud.net/5-beneficios-pasear-bicicleta/" target="_blank">Paseo en bicicleta por el Montseny click here</a></p>
-=======
                             <div>
->>>>>>> 59b5122eb16a538beebb7de04765c029df2c2301
 
                                 <img src="assets/bici.png"/>
 
