@@ -16,7 +16,7 @@ z-index: 12;
 `;
 
 export const NavLink = styled(Link)`
-color: #fff;
+color: #FAF1E2;
 font-size: 18px;
 display: flex;
 align-items: center;
@@ -25,7 +25,7 @@ padding: 0 1rem;
 height: 100%;
 cursor: pointer;
 &:hover {
-      color: green;
+      color: #4B7F55;
       transition: 200ms ease-in;
   }
 `;
@@ -72,9 +72,13 @@ width: 100vw; */
 
 export const NavBtnLink = styled(Link)`
 border-radius: 4px;
-background: #808080;
+background: #FAF1E2
+;
 padding: 10px 22px;
-color: #000000;
+color:#4B7F55
+
+
+ ;
 outline: none;
 border: none;
 cursor: pointer;
@@ -84,7 +88,10 @@ text-decoration: none;
 margin-left: 24px;
 &:hover {
 	transition: all 0.2s ease-in-out;
-	background: #fff;
-	color: #808080;
+	background: #4B7F55
+
+;
+	color: #FAF1E2
+;
 }
 `;
