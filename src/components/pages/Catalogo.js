@@ -5,6 +5,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
+
+import { Link,} from 'react-router-dom';
+
+
 const Catalogo = () => {
 
     const [experiences, setExperiences] = useState([]);
@@ -40,7 +44,7 @@ const Catalogo = () => {
                             <div>
 
                                 <img src="assets/bici.png" />
-                                <p className="legend"><a href="#" target="_blank">Paseo en bicicleta por el Montseny click here</a></p>
+                                <p className="legend"><a href="https://www.clikisalud.net/5-beneficios-pasear-bicicleta/" target="_blank">Paseo en bicicleta por el Montseny click here</a></p>
 
 
 
