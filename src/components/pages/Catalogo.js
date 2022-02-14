@@ -3,7 +3,7 @@ import {useEffect, useState} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+import {Carousel} from 'react-responsive-carousel';
 
 const Catalogo = () => {
 
@@ -37,42 +37,42 @@ const Catalogo = () => {
                     <h1>Las mejores actividades que hacer</h1>
                     <div className="experience-list">
                         <Carousel>
+
                             <div>
 
-                                <img src="assets/bici.png" />
-                                <p className="legend"><a href="#" target="_blank">Paseo en bicicleta por el Montseny click here</a></p>
+                                <img src="assets/bici.png"/>
 
+                                    <p className="legend"> Paseo en bicicleta por el Montseny <a href="#" target="_blank"> click here</a> </p>
 
-
-                            </div>
-                            <div>
-                                <img src="assets/barco.png" />
-                                <p className="legend">Descubre la costa en barco de vela</p>
-                            </div>
-                            <div>
-                                <img src="assets/bcnmodernista.png" />
-                                <p className="legend">Descubre la Barcelona Modernista de noche</p>
                             </div>
 
                             <div>
-                                <img src="assets/huerta.png" />
-                                <p className="legend">Del huerto a la mesa</p>
+                                <img src="assets/barco.png"/>
+                                <p className="legend">Descubre la costa en barco de vela<a href="#" target="_blank"> click here</a></p>
                             </div>
                             <div>
-                                <img src="assets/montserrat.png" />
-                                <p className="legend">Arte en la montaña sagrada</p>
-                                <button></button>
+                                <img src="assets/bcnmodernista.png"/>
+                                <p className="legend">Descubre la Barcelona Modernista de noche<a href="#" target="_blank"> click here</a></p>
+                            </div>
+
+                            <div>
+                                <img src="assets/huerta.png"/>
+                                <p className="legend">Del huerto a la mesa<a href="#" target="_blank"> click here</a></p>
+                            </div>
+                            <div>
+                                <img src="assets/montserrat.png"/>
+                                <p className="legend">Arte en la montaña sagrada<a href="#" target="_blank"> click here</a></p>
+
                             </div>
                         </Carousel>
-
-
 
                     </div>
                 </div>
             </div>
         </div>
 
-    );
+
+);
 };
 
 
