@@ -16,7 +16,7 @@ const Navbar = () => {
 
                 <NavMenu>
                     <NavLink to='/about' activeStyle>
-                        Econotravel //logo luego
+                        <img className="logo_transparente" src="assets/logoecoT.png" />
                     </NavLink>
                     <NavLink to='/experiences' activeStyle>
                         Experiences
