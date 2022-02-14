@@ -11,19 +11,23 @@ padding: 0.2rem calc((100vw - 1000px) / 2);
 z-index: 12;
 /* Third Nav */
 /* justify-content: flex-start; */
+ 
+
 `;
 
 export const NavLink = styled(Link)`
-color: #808080;
+color: #fff;
+font-size: 18px;
 display: flex;
 align-items: center;
 text-decoration: none;
 padding: 0 1rem;
 height: 100%;
 cursor: pointer;
-&.active {
-	color: #000000;
-}
+&:hover {
+      color: green;
+      transition: 200ms ease-in;
+  }
 `;
 
 export const Bars = styled(FaBars)`

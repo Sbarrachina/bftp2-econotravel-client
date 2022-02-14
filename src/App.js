@@ -7,6 +7,7 @@ import NewExperienceForm from './components/NewExperienceForm';
 import Catalogo from "./components/pages/Catalogo";
 import Signup from './components/pages/Signup.js';
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./components/Footer/Footer";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
                     <Route path='/sign-up' component={Signup} />
                 </Switch>
             </Router>
+            <Footer/>
 
 
         </div>
