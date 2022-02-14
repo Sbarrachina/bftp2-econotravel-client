@@ -16,7 +16,7 @@ const Navbar = () => {
 
                 <NavMenu>
                     <NavLink to='/about' activeStyle>
-                        About
+                        Econotravel //logo luego
                     </NavLink>
                     <NavLink to='/experiences' activeStyle>
                         Experiences
