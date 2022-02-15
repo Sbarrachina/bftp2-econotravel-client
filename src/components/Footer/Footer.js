@@ -28,6 +28,7 @@ return (
                 <Column>
                     <FooterLink href="#">Social media</FooterLink>
                     <img className="logo_twitter" src="assets/twitter_logo.png" />
+                    <img className="logo_instagram" src="assets/logo_instaT.png" />
 
 
 
