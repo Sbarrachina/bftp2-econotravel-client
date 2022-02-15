@@ -45,7 +45,7 @@ export const FooterLink = styled.a`
   color: #FAF1E2
 
 ;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   font-size: 18px;
   text-decoration: none;
    
@@ -55,6 +55,7 @@ export const FooterLink = styled.a`
 ;
       transition: 200ms ease-in;
   }
+  
 `;
 
 export const Heading = styled.p`

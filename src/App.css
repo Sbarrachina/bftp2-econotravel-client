@@ -68,13 +68,62 @@
   width: 125px;
 }
 
-.logo_twitter{
-  width: 40px;
-  float: left;
-
+.container{
 }
-.logo_instagram{
-  width: 50px;
 
 
+
+
+
+
+
+
+/*FOOTER */
+
+ :root {
+    --primary-color: #333;
+    --secondary-color: #444;
+    --alt-color:#26dc60;
+    --overlay: rgba(0,0,0,0.8);
+    --container-width: 90vw;
+  }
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 4rem 0;
+    width: 100%;
 }
+
+.footer .container{
+    display: flex;
+    justify-content: center;
+}
+
+.social-media .fab{
+    margin-right: 20px;
+    font-size: 2em;
+    color:var(--alt-color)
+}
+.social-media .fab:hover{
+    color: var(--primary-color);
+}
+
+
+.info a:hover{
+   color: var(--primary-color);
+}
+.blog a:hover{
+   color: var(--primary-color);
+}
+
+
+.logo_twitter {
+  width: 25px;
+}
+
+
+
+
+
+
+
