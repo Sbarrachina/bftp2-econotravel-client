@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Box = styled.div`
-  padding: 80px 60px;
+  padding: 40px 30px;
   background-color: #4B7F55;;
   position: absolute;
   bottom: 0;
@@ -26,7 +26,7 @@ export const Column = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-left: 190px;
+  margin-left: 120px;
 `;
 
 export const Row = styled.div`

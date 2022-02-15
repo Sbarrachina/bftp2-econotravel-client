@@ -27,6 +27,7 @@ return (
                 </Column>
                 <Column>
                     <FooterLink href="#">Social media</FooterLink>
+                    <img className="logo_twitter" src="assets/twitter_logo.png" />
 
 
 
