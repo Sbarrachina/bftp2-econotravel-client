@@ -55,7 +55,7 @@
 .experience-list {
   display: flex;
   justify-content: center;
-  width: 50%;
+  width: 60%;
 }
 
 .experience-image {
@@ -77,4 +77,8 @@
   width: 50px;
   float: left;
 
+}
+.container-carousel{
+  display: flex;
+  justify-content: center;
 }
