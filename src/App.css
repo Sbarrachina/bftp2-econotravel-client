@@ -47,7 +47,7 @@
 }
 
 .catalog-gallery {
-  width: 90%;
+  width: 100%;
   border: 1px dashed blue;
   margin:auto;
 }
@@ -68,14 +68,6 @@
   width: 125px;
 }
 
-.container{
-}
-
-
-
-
-
-
 
 
 /*FOOTER */
@@ -87,17 +79,8 @@
     --overlay: rgba(0,0,0,0.8);
     --container-width: 90vw;
   }
-.footer{
-    background-color: #000;
-    color: #fff;
-    padding: 4rem 0;
-    width: 100%;
-}
 
-.footer .container{
-    display: flex;
-    justify-content: center;
-}
+
 
 .social-media .fab{
     margin-right: 20px;
@@ -116,9 +99,12 @@
    color: var(--primary-color);
 }
 
+/*NUEVA EXPERIENCIA FORMULARIO  */
 
-.logo_twitter {
-  width: 25px;
+form{
+    background-color: #FAF1E2;
+    width: 100%;
+
 }
 
 

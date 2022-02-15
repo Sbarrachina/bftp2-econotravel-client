@@ -24,9 +24,11 @@ export const Container = styled.div`
 
 export const Column = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
   margin-left: 120px;
+  justify-content:space-around;
+  
 `;
 
 export const Row = styled.div`
