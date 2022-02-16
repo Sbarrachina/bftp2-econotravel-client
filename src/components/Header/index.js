@@ -16,20 +16,15 @@ const Navbar = () => {
 
                 <NavMenu>
                     <NavLink to='/about' activeStyle>
-                        <img className="logo_transparente" src="assets/logoecoT.png" />
+                        <img className="logo_transparente" src="#" />
                     </NavLink>
                     <NavLink to='/experiences' activeStyle>
-                        Experiences
+                        Anucios
                     </NavLink>
                     <NavLink to='/new' activeStyle>
                         New
                     </NavLink>
 
-                    <NavLink to='/sign-up' activeStyle>
-                        Sign Up
-                    </NavLink>
-                    {/* Second Nav */}
-                    {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
                 </NavMenu>
                 <NavBtn>
                     <NavBtnLink to='/signin'>Sign In</NavBtnLink>
