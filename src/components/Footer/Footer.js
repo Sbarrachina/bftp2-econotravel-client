@@ -26,11 +26,11 @@ return (
 
                 </Column>
                 <Column>
-                    <FooterLink href="#">Social media</FooterLink>
-
-
-
-
+                    <FooterLink href="https://linkedin.com/" target="blank"><i className="fab fa-linkedin"></i> </FooterLink>
+                    <FooterLink href="https://instagram.com/" target="blank"><i className="fab fa-instagram"></i> </FooterLink>
+                    <FooterLink href="https://facebook.com/" target="blank"><i className="fab fa-faceboock"></i> </FooterLink>
+                    <FooterLink href="https://github.com/" target="blank"><i className="fab fa-github"></i> </FooterLink>
+                    <FooterLink href="https://twitter.com/" target="blank"><i className="fab fa-twitter"></i> </FooterLink>
                 </Column>
             </Row>
         </Container>

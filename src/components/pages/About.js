@@ -11,6 +11,8 @@ const About = () => {
             }}
         >
             <h1>ECONOTRAVEL</h1>
+
+
         </div>
     );
 };
