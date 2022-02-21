@@ -36,13 +36,23 @@ const Catalogo = () => {
                 <div className="catalog-gallery">
                     <p>Las mejores actividades que hacer</p>
                     <div className="experience-list">
-
-
                         {experiences.map(e => <div className="experience">
-                            <img className="experience-image"  src={e.image} alt="experience - image"/>
+                            <div className='container'>
+                                <div className='card' >
+                                    <div className='cardImgBox' >
+                                        <img className='cardImg' src= {e.image} ></img>
+                                    </div>
+                                    <h3 className='cardTitle'>{e.name}</h3>
+                                    <p className="cardDescription">{e.description}</p>
+                                    <p>{e.price}</p>
+                                    <p>{e.accessibility}</p>
 
-                            <p>{e.name}</p> */
-                        </div> )}
+                                        </div>
+
+                            </div>
+
+
+                         </div>)}
                     </div>
                 </div>
             </div>
