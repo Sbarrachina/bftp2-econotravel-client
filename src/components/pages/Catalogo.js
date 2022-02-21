@@ -35,7 +35,7 @@ const Catalogo = () => {
 
     }
     return (
-        <div>
+        <div className="container">
             <div className="catalog-frame">
                 <div className="catalog-gallery">
                     <h1>Las mejores actividades que hacer</h1>
