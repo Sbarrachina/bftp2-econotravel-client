@@ -15,7 +15,7 @@ const Navbar = () => {
                 <Bars />
 
                 <NavMenu>
-                    <NavLink to='/about' activeStyle>
+                    <NavLink to='/' activeStyle>
                         <img className="logo_transparente" src="assets/logoecoT.png" />
                     </NavLink>
                     <NavLink to='/experiences' activeStyle>
