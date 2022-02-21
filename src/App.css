@@ -45,7 +45,7 @@
 }
 
 .catalog-gallery {
-  width: 90%;
+  width: 100%;
   border: 1px dashed blue;
   margin:auto;
 }
@@ -66,11 +66,29 @@
   width: 125px;
 }
 
-.logo_twitter{
-  width: 40px;
-  float: left;
 
+
+/*FOOTER */
+
+ :root {
+    --primary-color: #333;
+    --secondary-color: #444;
+    --alt-color:#26dc60;
+    --overlay: rgba(0,0,0,0.8);
+    --container-width: 90vw;
+  }
+
+
+
+.social-media .fab{
+    margin-right: 20px;
+    font-size: 2em;
+    color:var(--alt-color)
 }
+.social-media .fab:hover{
+    color: var(--primary-color);
+}
+/* HEAD
 .logo_instagram{
   width: 50px;
   }
@@ -78,3 +96,21 @@
 .container {
   position: absolute;
 }
+=======
+
+
+.info a:hover{
+   color: var(--primary-color);
+}
+.blog a:hover{
+   color: var(--primary-color);
+}
+
+/*NUEVA EXPERIENCIA FORMULARIO  */
+
+form{
+    background-color: #FAF1E2;
+    width: 100%;
+
+}
+

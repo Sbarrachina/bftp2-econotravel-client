@@ -24,9 +24,11 @@ export const Container = styled.div`
 
 export const Column = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
   margin-left: 120px;
+  justify-content:space-around;
+  
 `;
 
 export const Row = styled.div`
@@ -45,7 +47,7 @@ export const FooterLink = styled.a`
   color: #FAF1E2
 
 ;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   font-size: 18px;
   text-decoration: none;
    
@@ -55,6 +57,7 @@ export const FooterLink = styled.a`
 ;
       transition: 200ms ease-in;
   }
+  
 `;
 
 export const Heading = styled.p`
