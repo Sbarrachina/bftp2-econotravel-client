@@ -8,6 +8,7 @@ import Signup from './components/pages/Signup.js';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer/Footer";
 
+
 function App() {
 
     return (
