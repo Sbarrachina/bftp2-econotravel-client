@@ -9,7 +9,6 @@
   pointer-events: none;
 }
 
-<<<<<<< HEAD
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -29,8 +28,7 @@
 
 .App-link {
   color: #61dafb;
-=======
-<<<<<<< HEAD
+
 
 }
 
@@ -53,11 +51,10 @@
   object-fit: fill;
 
 }
-=======
->>>>>>> 59552f176762850091ec48afe73844a02f47a85b
+
 .logo_transparente{
   width: 125px;
->>>>>>> 28b2520b6851bec274f24d6eb7fb37aeb2ca2074
+
 }
 
 @keyframes App-logo-spin {
