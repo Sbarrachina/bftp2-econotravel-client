@@ -1,6 +1,7 @@
-.App {
-  text-align: center;
-  background-color: #FAF1E2;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .App-logo {
@@ -66,8 +67,6 @@
   width: 125px;
 }
 
-
-
 /*FOOTER */
 
  :root {
@@ -75,7 +74,7 @@
     --secondary-color: #444;
     --alt-color:#26dc60;
     --overlay: rgba(0,0,0,0.8);
-    --container-width: 90vw;
+
   }
 
 
@@ -108,9 +107,6 @@
 
 /*NUEVA EXPERIENCIA FORMULARIO  */
 
-form{
-    background-color: #FAF1E2;
-    width: 100%;
 
-}
+
 
