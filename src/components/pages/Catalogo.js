@@ -1,9 +1,22 @@
 import React from 'react';
 import {useEffect, useState} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+import styles from './catalogo.module.css'
+import {
+    MDBCard,
+    MDBCardBody,
+    MDBCardTitle,
+    MDBCardText,
+    MDBCardImage,
+    MDBBtn,
+    MDBListGroup,
+    MDBListGroupItem,
+    MDBRow, MDBCol, MDBCardOverlay
+} from 'mdb-react-ui-kit';
+import {Row} from "../Footer/FooterStyles";
+
+
 
 const Catalogo = () => {
 
@@ -31,34 +44,35 @@ const Catalogo = () => {
 
     }
     return (
-        <div>
-            <div className="catalog-frame">
-                <div className="catalog-gallery">
-                    <p>Las mejores actividades que hacer</p>
-                    <div className="experience-list">
-                        {experiences.map(e => <div className="experience">
-                            <div className='container'>
-                                <div className='card' >
-                                    <div className='cardImgBox' >
-                                        <img className='cardImg' src= {e.image} ></img>
-                                    </div>
-                                    <h3 className='cardTitle'>{e.name}</h3>
-                                    <p className="cardDescription">{e.description}</p>
-                                    <p>{e.price}</p>
-                                    <p>{e.accessibility}</p>
+        <div className={styles.container}>
+            <div className={styles.row}>
+                {experiences.map(e => (
+                    <div className={styles.card}>
 
-                                        </div>
+                        <MDBCardImage position='top' src={e.image} />
+                        <MDBCardBody>
 
-                            </div>
+                            <MDBCardTitle>{e.name}</MDBCardTitle>
+
+                            <MDBListGroup flush>
+                                <MDBListGroupItem> <p> {e.price} € </p> </MDBListGroupItem>
+                                <MDBListGroupItem> Duration {e.duration} Horas</MDBListGroupItem>
+                                <MDBListGroupItem> {e.accessibility}</MDBListGroupItem>
+                            </MDBListGroup>
+
+                            <MDBBtn color='success' href='#'>Edit</MDBBtn>
+                            <MDBBtn color='success' href='#'>Delete</MDBBtn>
 
 
-                         </div>)}
+                        </MDBCardBody>
+
                     </div>
-                </div>
+                ))}
             </div>
         </div>
 
-    );
+);
+
 };
 
 
