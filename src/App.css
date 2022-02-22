@@ -4,12 +4,98 @@
     box-sizing: border-box;
 }
 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
 
+<<<<<<< HEAD
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+=======
+<<<<<<< HEAD
+
+}
+
+.catalog-gallery {
+  width: 80%;
+   height: 80%;
+  border: 1px dashed blue;
+  margin:auto;
+}
+
+.experience-list {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+.experience-image {
+  height: 150px;
+  width: 150px;
+  object-fit: fill;
+
+}
+=======
+>>>>>>> 59552f176762850091ec48afe73844a02f47a85b
+.logo_transparente{
+  width: 125px;
+>>>>>>> 28b2520b6851bec274f24d6eb7fb37aeb2ca2074
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.catalog-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalog-gallery {
+  width: 100%;
+  border: 1px dashed blue;
+  margin:auto;
+}
+
+.experience-list {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
+.experience-image {
+  height: 150px;
+  width: 150px;
+  object-fit: fill;
+
+}
 .logo_transparente{
   width: 125px;
 }
-
-
 
 /*FOOTER */
 
@@ -31,6 +117,15 @@
 .social-media .fab:hover{
     color: var(--primary-color);
 }
+/* HEAD
+.logo_instagram{
+  width: 50px;
+  }
+
+.container {
+  position: absolute;
+}
+=======
 
 
 .info a:hover{
@@ -41,12 +136,6 @@
 }
 
 /*NUEVA EXPERIENCIA FORMULARIO  */
-
-
-
-
-
-
 
 
 

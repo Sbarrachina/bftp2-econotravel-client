@@ -44,6 +44,13 @@ const Catalogo = () => {
 
     }
     return (
+
+        <div className="container">
+            <div className="catalog-frame">
+                <div className="catalog-gallery">
+                    <p>Las mejores actividades que hacer</p>
+                    <div className="experience-list">
+
         <div className={styles.container}>
             <div className={styles.row}>
                 {experiences.map(e => (
@@ -51,6 +58,7 @@ const Catalogo = () => {
 
                         <MDBCardImage position='top' src={e.image} />
                         <MDBCardBody>
+
 
                             <MDBCardTitle>{e.name}</MDBCardTitle>
 
@@ -77,6 +85,4 @@ const Catalogo = () => {
 
 
 export default Catalogo;
-
-
 
