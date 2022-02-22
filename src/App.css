@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
+=======
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 34eac92f435ef14a26753c5774cb469526ae88c5
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -29,8 +34,14 @@
 
 .App-link {
   color: #61dafb;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 34eac92f435ef14a26753c5774cb469526ae88c5
 }
 
+>>>>>>> eae10e6689528760b8cd77b97dbd62a07da618f4
 .catalog-gallery {
   width: 80%;
    height: 80%;
@@ -53,6 +64,10 @@
 
 .logo_transparente{
   width: 125px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 34eac92f435ef14a26753c5774cb469526ae88c5
 }
 
 @keyframes App-logo-spin {
