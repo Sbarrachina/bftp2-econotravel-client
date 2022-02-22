@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-
-<<<<<<< HEAD
-
-}
-
 .catalog-gallery {
   width: 80%;
    height: 80%;
@@ -28,8 +23,7 @@
   object-fit: fill;
 
 }
-=======
->>>>>>> 59552f176762850091ec48afe73844a02f47a85b
+
 .logo_transparente{
   width: 125px;
 }

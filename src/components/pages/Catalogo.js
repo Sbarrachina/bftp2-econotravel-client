@@ -71,7 +71,7 @@ const Catalogo = () => {
             </div>
         </div>
 
-);
+    );
 
 };
 
