@@ -2,10 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
 
-<<<<<<< HEAD
-=======
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -34,7 +33,6 @@
 
 }
 
->>>>>>> eae10e6689528760b8cd77b97dbd62a07da618f4
 .catalog-gallery {
   width: 80%;
    height: 80%;
