@@ -1,4 +1,5 @@
 import React, {Fragment, useState, useEffect} from 'react';
+import data from "bootstrap/js/src/dom/data";
 
 const NewExperienceForm = (props) => {
 
@@ -25,60 +26,79 @@ const NewExperienceForm = (props) => {
 
 
     return (
-        <Fragment>
-            <h1>Añadir Nueva Experiencia</h1>
-            <form  onSubmit={enviarDatos}>
+        <section className="form-section">
+            <div className="form-wrapper">
+                <h1>{ data ? 'Editar experiencia' : 'Nueva experiencia'}</h1>
+                <div className="form-container">
+                    <form className="edit-form" onSubmit={enviarDatos} action="">
 
-                <div>
-                    <input type="text"
-                           placeholder="Título"
-                           onChange={handleInputChange}
-                           name="name"/>
+                        <div className="form-group">
+                            <label htmlFor="">Nombre de la experiencia</label>
+                            <input type="text"
+                                   className="form-control"
+                                   onChange={handleInputChange}
+                                   name="name"
+                                   value={datos.name}/>
+                        </div>
+
+                        <div className="form-group">
+                            <label htmlFor="">Descripción</label>
+                            <textarea value={datos.description} name="description" id="" cols="50" rows="5"
+                                      className="form-control"
+                                      onChange={handleInputChange}/>
+                        </div>
+
+                        <div className="form-group">
+                            <label htmlFor="">Precio p/p</label>
+                            <input type="text"
+                                   className="form-control"
+                                   onChange={handleInputChange}
+                                   name="price"
+                                   value={datos.price}/>
+                        </div>
+
+                        <div className="form-group">
+                            <label htmlFor="">Duración</label>
+                            <input type="text"
+                                   className="form-control"
+                                   onChange={handleInputChange}
+                                   name="duration"
+                                   value={datos.duration}/>
+                        </div>
+
+                        <div className="form-group">
+                            <label htmlFor="">Accesibilidad</label>
+                            <textarea value={datos.accessibility} name="description" id="" cols="50" rows="5"
+                                      className="form-control"
+                                      onChange={handleInputChange}/>
+                        </div>
+
+                        <div className="form-group">
+                            <label htmlFor="">Tags</label>
+                            <input type="text"
+                                   className="form-control"
+                                   onChange={handleInputChange}
+                                   value={datos.tags}
+                                   name="tags"/>
+                        </div>
+
+
+                        <div className="btn-edit-container">
+                            <button type="submit" className="btn-edit">Guardar</button>
+                        </div>
+                    </form>
                 </div>
+            </div>
 
+        </section>
 
-                <div>
-                    <input type="text"
-                           placeholder="Precio"
-                           onChange={handleInputChange}
-
-                           name="price"/>
-                </div>
-
-                <div>
-                    <input type="text"
-                           placeholder="Duración"
-                           onChange={handleInputChange}
-                           name="duration"/>
-                </div>
-
-                <div>
-                    <input type="text"
-                           placeholder="Accesibilidad"
-                           onChange={handleInputChange}
-                           name="accessibility"/>
-                </div>
-
-                <div>
-                    <input type="text"
-                           placeholder="Descripción"
-                           onChange={handleInputChange}
-                           name="description"/>
-                </div>
-
-                <div>
-                    <input type="text"
-                           placeholder="Etiquetas"
-                           onChange={handleInputChange}
-                           name="tags"/>
-                </div>
-
-
-                <div>
-                    <input type="submit"  value="Guardar"/>
-                </div>
-            </form>
-        </Fragment>
     );
 }
+
+
 export default  NewExperienceForm
+
+
+
+
+
