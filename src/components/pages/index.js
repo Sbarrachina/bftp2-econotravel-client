@@ -44,27 +44,27 @@ const Home = () => {
                             <div>
 
 
-                                <img src="assets/bici.png"/>
+                                <img src="assets/BiciF.png"/>
 
                                 <p className="legend"> Paseo en bicicleta por el Montseny <a href="/bici" target="_blank"> More info </a> </p>
 
                             </div>
 
                             <div>
-                                <img src="assets/barco.png"/>
+                                <img src="assets/BarcoF.png"/>
                                 <p className="legend">Descubre la costa en barco de vela<a href="/barco"  target="_blank"> More info</a></p>
                             </div>
                             <div>
-                                <img src="assets/bcnmodernista.png"/>
+                                <img src="assets/modernismoF.png"/>
                                 <p className="legend">Descubre la Barcelona Modernista de noche<a href="/barcelona"  target="_blank"> More info</a></p>
                             </div>
 
                             <div>
-                                <img src="assets/huerta.png"/>
+                                <img src="assets/huertoF.png"/>
                                 <p className="legend">Del huerto a la mesa<a href="/huerto"  target="_blank"> More info</a></p>
                             </div>
                             <div>
-                                <img src="assets/montserrat.png"/>
+                                <img src="assets/MontserratF.png"/>
                                 <p className="legend">Arte en la montaña sagrada<a href="/montserrat"  target="_blank"> More info</a></p>
 
                             </div>
