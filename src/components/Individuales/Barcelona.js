@@ -6,6 +6,7 @@ const Barcelona = () => {
     return (
         <div className={styles.conteiner}>
             <h1>Barcelona</h1>
+
         </div>
     );
 };

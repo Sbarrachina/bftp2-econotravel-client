@@ -60,7 +60,7 @@ const Catalogo = () => {
                                 <MDBListGroupItem> {e.accessibility}</MDBListGroupItem>
                             </MDBListGroup>
 
-                            <MDBBtn color='success' href='#'>Edit</MDBBtn>
+                            <MDBBtn className={styles.btn} color='success' href='#'>Edit</MDBBtn>
                             <MDBBtn color='success' href='#'>Delete</MDBBtn>
 
 
@@ -71,9 +71,12 @@ const Catalogo = () => {
             </div>
         </div>
 
-    );
+);
 
 };
 
 
 export default Catalogo;
+
+
+
