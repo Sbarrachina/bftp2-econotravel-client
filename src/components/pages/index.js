@@ -36,12 +36,12 @@ const Home = () => {
         <div>
             <div className="catalog-frame">
                 <div className="catalog-gallery">
-                    <h1>Las mejores actividades que hacer</h1>
+                    <h3>Las mejores actividades que hacer</h3>
                     <div className="experience-list">
                         <Carousel>
 
 
-                            <div>
+                            <div className="scroll">
 
 
                                 <img src="assets/BiciF.png"/>

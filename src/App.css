@@ -28,14 +28,14 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #4B7F55;
 
 }
 
 .catalog-gallery {
   width: 80%;
    height: 80%;
-  border: 1px dashed blue;
+  border: 1px darkolivegreen;
   margin:auto;
 }
 
@@ -73,23 +73,25 @@
 }
 
 .catalog-gallery {
-  width: 100%;
-  border: 1px dashed blue;
+  width: 80vh;
+  border: 1px darkolivegreen;
   margin:auto;
 }
 
 .experience-list {
   display: flex;
   justify-content: center;
-  width: 70%;
+  width: 80vh;
 }
 
 .experience-image {
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
   object-fit: fill;
 
 }
+
+
 .logo_transparente{
   width: 125px;
 }
@@ -132,7 +134,6 @@
 }
 
 /*NUEVA EXPERIENCIA FORMULARIO  */
-
 
 
 
