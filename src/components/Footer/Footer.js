@@ -16,7 +16,7 @@ return (
             <Row>
                 <Column>
 
-                    <FooterLink href="#">About Us</FooterLink>
+                    <FooterLink href="/AboutUs">About Us</FooterLink>
 
                 </Column>
 
