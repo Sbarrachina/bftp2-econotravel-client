@@ -39,6 +39,7 @@ const Catalogo = ({experiences}) => {
                             <MDBListGroup flush>
                                 <MDBListGroupItem> <p> {e.price} € </p> </MDBListGroupItem>
                                 <MDBListGroupItem> Duration {e.duration} Horas</MDBListGroupItem>
+                                <MDBListGroupItem> {e.description}</MDBListGroupItem>
                                 <MDBListGroupItem> {e.accessibility}</MDBListGroupItem>
                             </MDBListGroup>
 
