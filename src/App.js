@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer/Footer";
 import {useEffect, useState} from "react";
 import Experience from "./components/Individuales/Experience";
+import AboutUs from './components/pages/AboutUs';
 
 
 
@@ -41,6 +42,8 @@ function App() {
                     <Route path='/experience/:id' component={Experience} />
                     <Route path='/new' component={NewExperienceForm} />
                     <Route path='/sign-up' component={Signup} />
+                    <Route path='/AboutUs' component={AboutUs}/>
+
 
                 </Switch>
             </Router>
