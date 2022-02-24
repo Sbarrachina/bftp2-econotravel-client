@@ -4,8 +4,10 @@ import styles from './experiencias.module.css'
 
 const Barco = () => {
     return (
-        <div className={styles.conteiner}>
+        <div className={styles.conteiner2}>
             <h1>Barco</h1>
+
+
         </div>
     );
 };
