@@ -9,6 +9,12 @@
   pointer-events: none;
 }
 
+h1{
+    text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00e600, 0 0 40px #00e682,
+    0 0 50px #a1e600, 0 0 60px #8ee600, 0 0 70px #3ae600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -138,5 +144,12 @@
 
 /*NUEVA EXPERIENCIA FORMULARIO  */
 
+.form-section{
+    display: inline;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 60px;
 
+}
 

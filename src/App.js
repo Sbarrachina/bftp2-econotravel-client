@@ -7,13 +7,9 @@ import Catalogo from "./components/pages/Catalogo";
 import Signup from './components/pages/Signup.js';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer/Footer";
-import Barco from "./components/Individuales/Barco";
-import Barcelona from "./components/Individuales/Barcelona";
-import Montserrat from "./components/Individuales/Montserrat";
-import Huerto from "./components/Individuales/Huerto";
-import PaseoBici from "./components/Individuales/PaseoBici";
 import {useEffect, useState} from "react";
 import Experience from "./components/Individuales/Experience";
+import AboutUs from './components/pages/AboutUs';
 
 
 
@@ -46,11 +42,9 @@ function App() {
                     <Route path='/experience/:id' component={Experience} />
                     <Route path='/new' component={NewExperienceForm} />
                     <Route path='/sign-up' component={Signup} />
-                    <Route path='/barco' component={Barco} />
-                    <Route path='/bici' component={PaseoBici} />
-                    <Route path='/montserrat' component={Montserrat} />
-                    <Route path='/huerto' component={Huerto} />
-                    <Route path='/barcelona' component={Barcelona} />
+                    <Route path='/AboutUs' component={AboutUs}/>
+
+
                 </Switch>
             </Router>
             <Footer/>
