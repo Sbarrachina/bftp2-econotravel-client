@@ -16,10 +16,10 @@ const Experience = () => {
 
             <img alt ="" src={experience.image} />
 
-            <p>{experience.description}</p>
+            <p> {experience.description}</p>
             <p> {experience.price} € </p>
             <p> {experience.duration} Horas</p>
-            <p> {experience.accessibility}</p>
+            <p> {experience.accessibility}</p>g
 
         </div>
     );

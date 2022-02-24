@@ -15,6 +15,7 @@ import {
     MDBRow, MDBCol, MDBCardOverlay
 } from 'mdb-react-ui-kit';
 import {Row} from "../Footer/FooterStyles";
+import {Link} from "react-router-dom";
 
 
 
@@ -30,8 +31,13 @@ const Catalogo = ({experiences}) => {
             <div className={styles.row}>
                 {experiences.map(e => (
                     <div className={styles.card}>
-
+                        <Link to={{
+                            pathname: `/experience/${e.id}`,
+                            state: { experience: e }
+                        }}>
                         <MDBCardImage position='top' src={e.image} />
+                        </Link>
+
                         <MDBCardBody>
 
                             <MDBCardTitle>{e.name}</MDBCardTitle>
@@ -44,6 +50,7 @@ const Catalogo = ({experiences}) => {
 
                             <MDBBtn className={styles.btn} color='success' href='#'>Edit</MDBBtn>
                             <MDBBtn color='success' href='#'>Delete</MDBBtn>
+
 
 
                         </MDBCardBody>
