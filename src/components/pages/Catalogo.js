@@ -27,7 +27,7 @@ const Catalogo = ({experiences}) => {
 
     return (
         <div className={styles.container}>
-            <div className={styles.row}>
+            <div className={styles.row}>git
                 {experiences.map(e => (
                     <div className={styles.card}>
 
