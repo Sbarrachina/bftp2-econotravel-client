@@ -12,10 +12,23 @@ import Barcelona from "./components/Individuales/Barcelona";
 import Montserrat from "./components/Individuales/Montserrat";
 import Huerto from "./components/Individuales/Huerto";
 import PaseoBici from "./components/Individuales/PaseoBici";
+import {useEffect, useState} from "react";
 
 
 
 function App() {
+
+    const [experiences, setExperiences] = useState([]);
+    const [requiresUpdate, setRequiresUpdate] = useState(true);
+
+    useEffect(() => {
+        if (requiresUpdate) {
+            fetch("http://localhost:8080/api/experiences")
+                .then(r => r.json())
+                .then(setExperiences)
+                .then(_ => setRequiresUpdate(false));
+        }
+    }, [requiresUpdate])
 
     return (
         <div className="App">
@@ -24,7 +37,9 @@ function App() {
                 <Navbar />
                 <Switch>
                     <Route path='/' exact component={Home} />
-                    <Route path='/experiences' component={Catalogo} />
+                    <Route path='/experiences'>
+                        <Catalogo experiences={experiences} />
+                    </Route>
                     <Route path='/new' component={NewExperienceForm} />
                     <Route path='/sign-up' component={Signup} />
                     <Route path='/barco' component={Barco} />
