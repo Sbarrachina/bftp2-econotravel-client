@@ -3,7 +3,7 @@
    align: center;
    background-color: #ededed;
    color: #343434;
-   font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, seriff;
+
 }
 
 h1 {
@@ -16,4 +16,5 @@ img {
    justify-content: center;
    height: 70%;
    width: 70%;
+
 }
