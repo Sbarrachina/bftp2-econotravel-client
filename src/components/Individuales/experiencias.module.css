@@ -7,24 +7,9 @@
 
 
 .conteiner{
-
-
-}
-.foto{
    display: flex;
    justify-content: center;
-   width: 200%;
-   padding:100px ;
+   align-items: center;
 
-
-}
-
-.texto{
-   display: flex;
-   justify-content: center;
-}
-
-
-.Container_video {
 
 }

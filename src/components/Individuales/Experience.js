@@ -15,7 +15,7 @@ const Experience = () => {
             <h1>{experience.name}</h1>
 
             <div className={styles.foto}>
-            <img alt ="" src={experience.image} />
+
 
 
                 </div>
