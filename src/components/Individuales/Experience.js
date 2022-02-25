@@ -11,7 +11,7 @@ const Experience = () => {
     const experience = location.state.experience
 
     return (
-        <div className={styles.conteiner}>
+        <div className={styles.container}>
             <h1>{experience.name}</h1>
 
             <img alt ="" src={experience.image} />

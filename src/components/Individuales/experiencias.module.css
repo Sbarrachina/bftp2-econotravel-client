@@ -1,4 +1,19 @@
-.conteiner {
+.container {
+   padding: 10%;
+   align: center;
+   background-color: #ededed;
+   color: #343434;
+   font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, seriff;
+}
 
-   background-color: #61dafb;
+h1 {
+   text-align: center;
+}
+
+img {
+   padding: 10%;
+   display: flex;
+   justify-content: center;
+   height: 70%;
+   width: 70%;
 }
