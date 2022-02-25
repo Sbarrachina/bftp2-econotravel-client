@@ -26,7 +26,7 @@ const Home = ({experiences}) => {
                                         <Link to={{
                                             pathname: `/experience/${experience.id}`,
                                             state: { experience: experience }
-                                    }}>More info</Link>
+                                        }}>More info</Link>
                                     </p>
 
                                 </div>)}
@@ -37,8 +37,11 @@ const Home = ({experiences}) => {
                 </div>
             </div>
             <div className="Container_video">
-
-                </div>
+                <iframe width="740" height="480" src="https://www.youtube.com/embed/pdkQRgWSWcM" controls ="0"
+                        title="YouTube video player" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen></iframe>
+            </div>
         </div>
 
 
@@ -47,3 +50,4 @@ const Home = ({experiences}) => {
 
 
 export default Home;
+

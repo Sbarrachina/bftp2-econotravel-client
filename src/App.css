@@ -144,3 +144,8 @@ h1,h3{
 
 }
 
+.Container_video{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}

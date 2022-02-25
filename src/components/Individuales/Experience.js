@@ -1,3 +1,4 @@
+
 import React from 'react';
 import styles from './experiencias.module.css'
 import {useLocation} from "react-router-dom";
@@ -17,24 +18,19 @@ const Experience = () => {
             <div className={styles.foto}>
 
 
-
-                </div>
+            </div>
             <div className={styles.texto}>
-            <p> {experience.description}</p>
-            <p> {experience.price} € </p>
-            <p> {experience.duration} Horas</p>
-            <p> {experience.accessibility}</p>
-            </div>
 
-            <div className= {styles.Container_video}>
+                <p> {experience.description}</p>
+                <p> {experience.price} € </p>
+                <p> {experience.duration} Horas</p>
+                <p> {experience.accessibility}</p>
 
-                <iframe width="720" height="480" src="https://www.youtube.com/embed/pdkQRgWSWcM" controls ="0"
-                        title="YouTube video player" frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen></iframe>
             </div>
+            <img alt ="" src={experience.image} />
+
+
         </div> ) ;
-
 
 };
 

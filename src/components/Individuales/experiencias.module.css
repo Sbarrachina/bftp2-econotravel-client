@@ -1,8 +1,8 @@
 
+
 *{
    padding: 0;
    margin: 0;
-
 }
 
 
@@ -10,6 +10,13 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   padding-right: 60px ;
+   padding-left: 50px;
+   padding-bottom:400px ;
 
 
+}
+.conteiner img{
+   width: 50%;
+   padding: 20px;
 }
