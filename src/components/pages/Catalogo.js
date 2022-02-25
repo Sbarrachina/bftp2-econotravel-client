@@ -49,11 +49,6 @@ const Catalogo = ({experiences}) => {
                                 <MDBListGroupItem> {e.accessibility}</MDBListGroupItem>
                             </MDBListGroup>
 
-                            <MDBBtn className={styles.btn} color='success' href='#'>Edit</MDBBtn>
-                            <MDBBtn color='success' href='#'>Delete</MDBBtn>
-
-
-
                         </MDBCardBody>
 
                     </div>

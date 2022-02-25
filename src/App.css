@@ -2,7 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
+
+
+body {
+
+    background-color:#FAF1E2 ;
+
+}
+
+
 
 .App-logo {
   height: 40vmin;
@@ -98,10 +108,6 @@ h1,h3{
 
 }
 
-
-
-
-
 .logo_transparente{
   width: 125px;
 }
@@ -125,22 +131,6 @@ h1,h3{
 }
 .social-media .fab:hover{
     color: var(--primary-color);
-}
-/* HEAD
-.logo_instagram{
-  width: 50px;
-  }
-
-.container {
-  position: absolute;
-}
-
-
-.info a:hover{
-   color: var(--primary-color);
-}
-.blog a:hover{
-   color: var(--primary-color);
 }
 
 /*NUEVA EXPERIENCIA FORMULARIO  */
