@@ -14,12 +14,18 @@ const Experience = () => {
         <div className={styles.conteiner}>
             <h1>{experience.name}</h1>
 
+            <div className={styles.foto}>
             <img alt ="" src={experience.image} />
 
+
+                </div>
+            <div className={styles.texto}>
             <p> {experience.description}</p>
             <p> {experience.price} € </p>
             <p> {experience.duration} Horas</p>
             <p> {experience.accessibility}</p>
+            </div>
+
             <div className= {styles.Container_video}>
 
                 <iframe width="720" height="480" src="https://www.youtube.com/embed/pdkQRgWSWcM" controls ="0"

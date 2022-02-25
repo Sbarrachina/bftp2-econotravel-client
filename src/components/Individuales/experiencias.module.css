@@ -4,22 +4,25 @@
 }
 
 
-h1,h2,p {
-   padding: 10px;
+.conteiner{
+
+
+}
+.foto{
+   display: flex;
+   justify-content: center;
+   width: 200%;
+   padding:100px ;
+
+
 }
 
-
-
-img {
-   width: 20%;
-   text-align: center;
+.texto{
+   display: flex;
+   justify-content: center;
 }
-
-
 
 
 .Container_video {
-   display: flex;
-   justify-content: center;
-   padding: 20px;
+
 }
